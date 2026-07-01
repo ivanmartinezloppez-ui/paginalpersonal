@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url("../img/1q1de0583au71.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+    justify-items: center;
+    align-content: center;
+}
+
+div {
+   width: 50vh;
+   margin-top: 5%;
+}
+
+.campo {
+    position: relative;
+}
+
+.campo input {
+    background-color: rgb(255, 255, 255,0);
+    padding: 3%;
+    width: 330px;
+    margin-right: 5%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255, 0.3);
+    border-width: 1px;
+}
+
+
+form {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255, 0.3);
+    border-width: 1px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 2.5%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50vh;
+}
+
+form h1 {
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+form p {
+    font-size: 15px;
+    margin-top: 8%;
+}
+
+.password {
+    color: white;
+    margin-left: 25%;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.register {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fa-solid {
+    position: absolute;
+    right: 18%;
+    top: 30%;
+
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding-left: 3%;
+}
+
+input[type=submit] {
+    padding: 3%;
+    width: 80%;
+    border-radius: 20px;
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+label[for=remember] {
+    font-size: 14px;
+}
